@@ -180,62 +180,33 @@ h4 {
 }
 
 #services {
-  background: linear-gradient(
-    250.3deg,
-    #6fef91 10.59%,
-    #82f7a1 22.93%,
-    #ffffff 92.28%
-  );
-}
-
-#services img {
-  width: 80%;
-  float: right;
-}
-
-.panel-up {
   background: white;
-  padding: 10px;
-  border-radius: 1rem !important;
-  margin-bottom: 10px;
 }
 
-.hr-color {
-  color: #00cc36;
+#services h3 {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 28px;
+  color: #262626;
 }
 
-.panel-title {
-  position: relative;
+#serices p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  color: #595959;
 }
 
-.panel-title::after {
-  content: "\f107";
-  color: #333;
-  top: -2px;
-  right: 0px;
-  position: absolute;
-  font-family: "FontAwesome";
+#services .services-img {
+  width: 80%;
 }
 
-.panel-title[aria-expanded="true"]::after {
-  content: "\f106";
-}
-
-/*
- * Added 12-27-20 to showcase full title clickthrough
- */
-
-.panel-heading-full.panel-heading {
-  padding: 0;
-}
-
-.panel-heading-full .panel-title {
-  padding: 10px 15px;
-}
-
-.panel-heading-full .panel-title::after {
-  top: 10px;
-  right: 15px;
+#services .services-box {
+  align-self: center;
 }
 
 #advantages {
@@ -330,7 +301,7 @@ h4 {
 }
 
 #testimonials {
-  background: url(../img-v2/backgroundijo\ 1.png);
+  background: url(../img/backgroundijo\ 1.png);
   text-align: center;
 }
 
